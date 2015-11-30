@@ -1,0 +1,23 @@
+{
+  "name": "create-podcast-rss",
+  "version": "0.1.0",
+  "description": "Create private podcast",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "create_podcast_rss"
+  ],
+  "author": "YOUR_EMAIL_HERE",
+  "license": "MIT",
+  "repository": "http://example.com",
+  "devDependencies": {
+    "babel": "~5.6.14"
+  },
+  "dependencies": {
+    "aws-sdk": "~2.1.37",
+    "source-map-support": "~0.3.2"
+  },
+  "scripts": {
+    "build": "babel src --out-file index.js --source-maps inline && zip create_podcast_rss.zip index.js package.json"
+  }
+}
