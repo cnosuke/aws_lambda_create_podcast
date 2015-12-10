@@ -21,9 +21,9 @@ YOUR_EMAIL_HERE
 
 Recommend:
 
-- install dotenv
-- add `.env` file in local
-- write AWS credentials in it
+- Install `dotenv`.
+- Add `.env` file in local.
+- Write AWS credentials in it.
 - `npm install`
 - `dotenv node run.js` :smirk:
 
